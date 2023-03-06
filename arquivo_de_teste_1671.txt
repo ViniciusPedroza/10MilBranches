@@ -1,0 +1,1164 @@
+2022-11-07 09:44:23.329281 ## TESTE INICIADO PARA PLACA: 0107898922479720210015140
+2022-11-07 09:44:23.333301 ## Teste REALIZADO NA JIGA DE MAC: e4:5f:01:81:21:d5
+2022-11-07 09:44:23.816251 ## Teste 0 - Inicializacao:
+2022-11-07 09:44:23.819353 ## Inicializando Jiga.
+2022-11-07 09:44:23.819716 ## Inicializando DUT.
+2022-11-07 09:44:23.848746 ## ADC encontrado
+2022-11-07 09:44:27.958406 ## STMLink encontrado após reset
+2022-11-07 09:44:27.958605 ## Teste 0 finalizado com sucesso.
+2022-11-07 09:44:27.958721 ## --------------SUCESSO: Teste 0 - Inicializacao
+2022-11-07 09:44:27.959229 ## TestStatus.done
+2022-11-07 09:44:27.959336 ## 
+2022-11-07 09:44:27.990766 ## Teste 1 - Alimentacao:
+2022-11-07 09:44:48.556965 ## Teste 1 finalizado com sucesso.
+2022-11-07 09:44:48.557345 ## --------------SUCESSO: Teste 1 - Alimentacao
+2022-11-07 09:44:48.557972 ## TestStatus.done
+2022-11-07 09:44:48.558287 ## 
+2022-11-07 09:44:48.583730 ## Teste 2 - Gravacao Watchdog para testes:
+2022-11-07 09:44:49.602785 ## Inserindo Firmware de testes do Watchdog
+2022-11-07 09:44:52.160818 ## CompletedProcess(args='sudo /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/stlink/build/Release/bin/st-flash --connect-under-reset --format binary --freq=4000k write /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/Aprovisionamento/FW_TESTES_WD/WD_Completo.bin 0x08000000', returncode=0, stdout=b'st-flash 1.7.0-214-gc2db68e-dirty\nfile /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/Aprovisionamento/FW_TESTES_WD/WD_Completo.bin md5 checksum: 99ee53a3abc857b4f952cb522e983130, stlink checksum: 0x0010f855\n-> Flash page at 0x8000000 erased (size: 0x80)\n-> Flash page at 0x8000080 erased (size: 0x80)\n-> Flash page at 0x8000100 erased (size: 0x80)\n-> Flash page at 0x8000180 erased (size: 0x80)\n-> Flash page at 0x8000200 erased (size: 0x80)\n-> Flash page at 0x8000280 erased (size: 0x80)\n-> Flash page at 0x8000300 erased (size: 0x80)\n-> Flash page at 0x8000380 erased (size: 0x80)\n-> Flash page at 0x8000400 erased (size: 0x80)\n-> Flash page at 0x8000480 erased (size: 0x80)\n-> Flash page at 0x8000500 erased (size: 0x80)\n-> Flash page at 0x8000580 erased (size: 0x80)\n-> Flash page at 0x8000600 erased (size: 0x80)\n-> Flash page at 0x8000680 erased (size: 0x80)\n-> Flash page at 0x8000700 erased (size: 0x80)\n-> Flash page at 0x8000780 erased (size: 0x80)\n-> Flash page at 0x8000800 erased (size: 0x80)\n-> Flash page at 0x8000880 erased (size: 0x80)\n-> Flash page at 0x8000900 erased (size: 0x80)\n-> Flash page at 0x8000980 erased (size: 0x80)\n-> Flash page at 0x8000a00 erased (size: 0x80)\n-> Flash page at 0x8000a80 erased (size: 0x80)\n-> Flash page at 0x8000b00 erased (size: 0x80)\n-> Flash page at 0x8000b80 erased (size: 0x80)\n-> Flash page at 0x8000c00 erased (size: 0x80)\n-> Flash page at 0x8000c80 erased (size: 0x80)\n-> Flash page at 0x8000d00 erased (size: 0x80)\n-> Flash page at 0x8000d80 erased (size: 0x80)\n-> Flash page at 0x8000e00 erased (size: 0x80)\n-> Flash page at 0x8000e80 erased (size: 0x80)\n-> Flash page at 0x8000f00 erased (size: 0x80)\n-> Flash page at 0x8000f80 erased (size: 0x80)\n-> Flash page at 0x8001000 erased (size: 0x80)\n-> Flash page at 0x8001080 erased (size: 0x80)\n-> Flash page at 0x8001100 erased (size: 0x80)\n-> Flash page at 0x8001180 erased (size: 0x80)\n-> Flash page at 0x8001200 erased (size: 0x80)\n-> Flash page at 0x8001280 erased (size: 0x80)\n-> Flash page at 0x8001300 erased (size: 0x80)\n-> Flash page at 0x8001380 erased (size: 0x80)\n-> Flash page at 0x8001400 erased (size: 0x80)\n-> Flash page at 0x8001480 erased (size: 0x80)\n-> Flash page at 0x8001500 erased (size: 0x80)\n-> Flash page at 0x8001580 erased (size: 0x80)\n-> Flash page at 0x8001600 erased (size: 0x80)\n-> Flash page at 0x8001680 erased (size: 0x80)\n-> Flash page at 0x8001700 erased (size: 0x80)\n-> Flash page at 0x8001780 erased (size: 0x80)\n-> Flash page at 0x8001800 erased (size: 0x80)\n-> Flash page at 0x8001880 erased (size: 0x80)\n-> Flash page at 0x8001900 erased (size: 0x80)\n-> Flash page at 0x8001980 erased (size: 0x80)\n-> Flash page at 0x8001a00 erased (size: 0x80)\n-> Flash page at 0x8001a80 erased (size: 0x80)\n-> Flash page at 0x8001b00 erased (size: 0x80)\n-> Flash page at 0x8001b80 erased (size: 0x80)\n-> Flash page at 0x8001c00 erased (size: 0x80)\n-> Flash page at 0x8001c80 erased (size: 0x80)\n-> Flash page at 0x8001d00 erased (size: 0x80)\n-> Flash page at 0x8001d80 erased (size: 0x80)\n-> Flash page at 0x8001e00 erased (size: 0x80)\n-> Flash page at 0x8001e80 erased (size: 0x80)\n-> Flash page at 0x8001f00 erased (size: 0x80)\n-> Flash page at 0x8001f80 erased (size: 0x80)\n-> Flash page at 0x8002000 erased (size: 0x80)\n-> Flash page at 0x8002080 erased (size: 0x80)\n-> Flash page at 0x8002100 erased (size: 0x80)\n-> Flash page at 0x8002180 erased (size: 0x80)\n-> Flash page at 0x8002200 erased (size: 0x80)\n-> Flash page at 0x8002280 erased (size: 0x80)\n-> Flash page at 0x8002300 erased (size: 0x80)\n-> Flash page at 0x8002380 erased (size: 0x80)\n-> Flash page at 0x8002400 erased (size: 0x80)\n-> Flash page at 0x8002480 erased (size: 0x80)\n-> Flash page at 0x8002500 erased (size: 0x80)\n-> Flash page at 0x8002580 erased (size: 0x80)\n-> Flash page at 0x8002600 erased (size: 0x80)\n-> Flash page at 0x8002680 erased (size: 0x80)\n-> Flash page at 0x8002700 erased (size: 0x80)\n-> Flash page at 0x8002780 erased (size: 0x80)\n-> Flash page at 0x8002800 erased (size: 0x80)\n-> Flash page at 0x8002880 erased (size: 0x80)\n-> Flash page at 0x8002900 erased (size: 0x80)\n-> Flash page at 0x8002980 erased (size: 0x80)\n-> Flash page at 0x8002a00 erased (size: 0x80)\n-> Flash page at 0x8002a80 erased (size: 0x80)\n-> Flash page at 0x8002b00 erased (size: 0x80)\n-> Flash page at 0x8002b80 erased (size: 0x80)\n-> Flash page at 0x8002c00 erased (size: 0x80)\n-> Flash page at 0x8002c80 erased (size: 0x80)\n-> Flash page at 0x8002d00 erased (size: 0x80)\n-> Flash page at 0x8002d80 erased (size: 0x80)\n-> Flash page at 0x8002e00 erased (size: 0x80)\n-> Flash page at 0x8002e80 erased (size: 0x80)\n-> Flash page at 0x8002f00 erased (size: 0x80)\n\n\r  1/188 halfpages written\r  2/188 halfpages written\r  3/188 halfpages written\r  4/188 halfpages written\r  5/188 halfpages written\r  6/188 halfpages written\r  7/188 halfpages written\r  8/188 halfpages written\r  9/188 halfpages written\r 10/188 halfpages written\r 11/188 halfpages written\r 12/188 halfpages written\r 13/188 halfpages written\r 14/188 halfpages written\r 15/188 halfpages written\r 16/188 halfpages written\r 17/188 halfpages written\r 18/188 halfpages written\r 19/188 halfpages written\r 20/188 halfpages written\r 21/188 halfpages written\r 22/188 halfpages written\r 23/188 halfpages written\r 24/188 halfpages written\r 25/188 halfpages written\r 26/188 halfpages written\r 27/188 halfpages written\r 28/188 halfpages written\r 29/188 halfpages written\r 30/188 halfpages written\r 31/188 halfpages written\r 32/188 halfpages written\r 33/188 halfpages written\r 34/188 halfpages written\r 35/188 halfpages written\r 36/188 halfpages written\r 37/188 halfpages written\r 38/188 halfpages written\r 39/188 halfpages written\r 40/188 halfpages written\r 41/188 halfpages written\r 42/188 halfpages written\r 43/188 halfpages written\r 44/188 halfpages written\r 45/188 halfpages written\r 46/188 halfpages written\r 47/188 halfpages written\r 48/188 halfpages written\r 49/188 halfpages written\r 50/188 halfpages written\r 51/188 halfpages written\r 52/188 halfpages written\r 53/188 halfpages written\r 54/188 halfpages written\r 55/188 halfpages written\r 56/188 halfpages written\r 57/188 halfpages written\r 58/188 halfpages written\r 59/188 halfpages written\r 60/188 halfpages written\r 61/188 halfpages written\r 62/188 halfpages written\r 63/188 halfpages written\r 64/188 halfpages written\r 65/188 halfpages written\r 66/188 halfpages written\r 67/188 halfpages written\r 68/188 halfpages written\r 69/188 halfpages written\r 70/188 halfpages written\r 71/188 halfpages written\r 72/188 halfpages written\r 73/188 halfpages written\r 74/188 halfpages written\r 75/188 halfpages written\r 76/188 halfpages written\r 77/188 halfpages written\r 78/188 halfpages written\r 79/188 halfpages written\r 80/188 halfpages written\r 81/188 halfpages written\r 82/188 halfpages written\r 83/188 halfpages written\r 84/188 halfpages written\r 85/188 halfpages written\r 86/188 halfpages written\r 87/188 halfpages written\r 88/188 halfpages written\r 89/188 halfpages written\r 90/188 halfpages written\r 91/188 halfpages written\r 92/188 halfpages written\r 93/188 halfpages written\r 94/188 halfpages written\r 95/188 halfpages written\r 96/188 halfpages written\r 97/188 halfpages written\r 98/188 halfpages written\r 99/188 halfpages written\r100/188 halfpages written\r101/188 halfpages written\r102/188 halfpages written\r103/188 halfpages written\r104/188 halfpages written\r105/188 halfpages written\r106/188 halfpages written\r107/188 halfpages written\r108/188 halfpages written\r109/188 halfpages written\r110/188 halfpages written\r111/188 halfpages written\r112/188 halfpages written\r113/188 halfpages written\r114/188 halfpages written\r115/188 halfpages written\r116/188 halfpages written\r117/188 halfpages written\r118/188 halfpages written\r119/188 halfpages written\r120/188 halfpages written\r121/188 halfpages written\r122/188 halfpages written\r123/188 halfpages written\r124/188 halfpages written\r125/188 halfpages written\r126/188 halfpages written\r127/188 halfpages written\r128/188 halfpages written\r129/188 halfpages written\r130/188 halfpages written\r131/188 halfpages written\r132/188 halfpages written\r133/188 halfpages written\r134/188 halfpages written\r135/188 halfpages written\r136/188 halfpages written\r137/188 halfpages written\r138/188 halfpages written\r139/188 halfpages written\r140/188 halfpages written\r141/188 halfpages written\r142/188 halfpages written\r143/188 halfpages written\r144/188 halfpages written\r145/188 halfpages written\r146/188 halfpages written\r147/188 halfpages written\r148/188 halfpages written\r149/188 halfpages written\r150/188 halfpages written\r151/188 halfpages written\r152/188 halfpages written\r153/188 halfpages written\r154/188 halfpages written\r155/188 halfpages written\r156/188 halfpages written\r157/188 halfpages written\r158/188 halfpages written\r159/188 halfpages written\r160/188 halfpages written\r161/188 halfpages written\r162/188 halfpages written\r163/188 halfpages written\r164/188 halfpages written\r165/188 halfpages written\r166/188 halfpages written\r167/188 halfpages written\r168/188 halfpages written\r169/188 halfpages written\r170/188 halfpages written\r171/188 halfpages written\r172/188 halfpages written\r173/188 halfpages written\r174/188 halfpages written\r175/188 halfpages written\r176/188 halfpages written\r177/188 halfpages written\r178/188 halfpages written\r179/188 halfpages written\r180/188 halfpages written\r181/188 halfpages written\r182/188 halfpages written\r183/188 halfpages written\r184/188 halfpages written\r185/188 halfpages written\r186/188 halfpages written\r187/188 halfpages written\r188/188 halfpages written\n', stderr=b'Failed to parse flash type or unrecognized flash type\n2022-11-07T09:44:49 INFO common.c: STM32L0xxx_Cat_1: 8 KiB SRAM, 16 KiB flash in at least 128 byte pages.\n2022-11-07T09:44:49 INFO common_flash.c: Attempting to write 12036 (0x2f04) bytes to stm32 address: 134217728 (0x8000000)\n2022-11-07T09:44:50 INFO flashloader.c: Starting Flash write for L0\n2022-11-07T09:44:50 INFO flash_loader.c: Successfully loaded flash loader in sram\n2022-11-07T09:44:50 INFO flash_loader.c: Clear DFSR\n2022-11-07T09:44:50 ERROR flash_loader.c: write_buffer_to_sram() == -1\n2022-11-07T09:44:50 WARN flashloader.c: Failed to use flash loader, fallback to soft write\n2022-11-07T09:44:51 INFO common_flash.c: Starting verification of write complete\n2022-11-07T09:44:51 INFO common_flash.c: Flash written and verified! jolly good!\n')
+2022-11-07 09:44:52.161825 ## Firmware de testes do watchdog gravado.
+2022-11-07 09:44:52.162123 ## Reiniciando a DUT.
+2022-11-07 09:45:00.220505 ## ADC encontrado
+2022-11-07 09:45:01.509237 ## Tensão de VDD_EXT lida corretamente : 1.77734375 V
+2022-11-07 09:45:11.745365 ## USB Modem operando corretamente!
+2022-11-07 09:45:11.745531 ## Porta AT modem encontrada
+2022-11-07 09:45:11.745627 ## Executando AT+DISK=1,0,1
+2022-11-07 09:45:14.251951 ## --------------SUCESSO: Teste 2 - Gravacao Watchdog para testes
+2022-11-07 09:45:14.253770 ## TestStatus.done
+2022-11-07 09:45:14.254155 ## 
+2022-11-07 09:45:14.279177 ## Teste 3 - Gravacao Modem para testes:
+2022-11-07 09:45:14.393260 ## USB Modem operando corretamente!
+2022-11-07 09:45:20.412006 ## ADB operando corretamente!
+2022-11-07 09:45:20.412193 ## Modem operando corretamente!
+2022-11-07 09:45:20.412295 ## Modem funcionando
+2022-11-07 09:45:23.025754 ## sudo fastboot flash rpm rpm.mbn
+2022-11-07 09:45:23.146558 ## CompletedProcess(args='sudo fastboot flash rpm rpm.mbn', returncode=0, stdout=b'', stderr=b"Sending 'rpm' (154 KB)                             OKAY [  0.008s]\nWriting 'rpm'                                      OKAY [  0.062s]\nFinished. Total time: 0.081s\n")
+2022-11-07 09:45:23.146754 ## sudo fastboot flash tz tz.mbn
+2022-11-07 09:45:23.366811 ## CompletedProcess(args='sudo fastboot flash tz tz.mbn', returncode=0, stdout=b'', stderr=b"Sending 'tz' (510 KB)                              OKAY [  0.021s]\nWriting 'tz'                                       OKAY [  0.150s]\nFinished. Total time: 0.181s\n")
+2022-11-07 09:45:23.367010 ## sudo fastboot flash aboot appsboot.mbn
+2022-11-07 09:45:23.604157 ## CompletedProcess(args='sudo fastboot flash aboot appsboot.mbn', returncode=0, stdout=b'', stderr=b"Sending 'aboot' (526 KB)                           OKAY [  0.022s]\nWriting 'aboot'                                    OKAY [  0.157s]\nFinished. Total time: 0.189s\n")
+2022-11-07 09:45:23.604570 ## sudo fastboot flash boot mdm9607-boot.img
+2022-11-07 09:45:25.093214 ## CompletedProcess(args='sudo fastboot flash boot mdm9607-boot.img', returncode=0, stdout=b'', stderr=b"Sending 'boot' (4608 KB)                           OKAY [  0.172s]\nWriting 'boot'                                     OKAY [  1.191s]\nFinished. Total time: 1.392s\n")
+2022-11-07 09:45:25.093701 ## sudo fastboot flash recovery mdm9607-recovery.img
+2022-11-07 09:45:27.288046 ## CompletedProcess(args='sudo fastboot flash recovery mdm9607-recovery.img', returncode=0, stdout=b'', stderr=b"Sending 'recovery' (7076 KB)                       OKAY [  0.247s]\nWriting 'recovery'                                 OKAY [  1.818s]\nFinished. Total time: 2.106s\n")
+2022-11-07 09:45:27.288520 ## sudo fastboot flash system mdm9607-sysfs.ubi
+2022-11-07 09:45:39.189201 ## CompletedProcess(args='sudo fastboot flash system mdm9607-sysfs.ubi', returncode=0, stdout=b'', stderr=b"Sending 'system' (39424 KB)                        OKAY [  1.417s]\nWriting 'system'                                   OKAY [ 10.263s]\nFinished. Total time: 11.801s\n")
+2022-11-07 09:45:39.189633 ## sudo fastboot flash modem NON-HLOS.ubi
+2022-11-07 09:45:49.828255 ## CompletedProcess(args='sudo fastboot flash modem NON-HLOS.ubi', returncode=0, stdout=b'', stderr=b"Sending 'modem' (35584 KB)                         OKAY [  1.278s]\nWriting 'modem'                                    OKAY [  9.176s]\nFinished. Total time: 10.559s\n")
+2022-11-07 09:45:49.829245 ## sudo fastboot flash userdata mdm9607-usrfs.ubi
+2022-11-07 09:46:15.912351 ## CompletedProcess(args='sudo fastboot flash userdata mdm9607-usrfs.ubi', returncode=0, stdout=b'', stderr=b"Sending 'userdata' (80384 KB)                      OKAY [  2.900s]\nWriting 'userdata'                                 OKAY [ 22.898s]\nFinished. Total time: 25.999s\n")
+2022-11-07 09:46:15.912856 ## sudo fastboot flash sbl sbl1.mbn
+2022-11-07 09:46:16.109781 ## CompletedProcess(args='sudo fastboot flash sbl sbl1.mbn', returncode=0, stdout=b'', stderr=b"Sending 'sbl' (207 KB)                             OKAY [  0.011s]\nWriting 'sbl'                                      OKAY [  0.080s]\nFinished. Total time: 0.101s\n")
+2022-11-07 09:46:16.110163 ## fastboot reboot
+2022-11-07 09:46:16.457095 ## CompletedProcess(args='fastboot reboot', returncode=0, stdout=b'', stderr=b'Rebooting                                          OKAY [  0.004s]\nFinished. Total time: 0.305s\n')
+2022-11-07 09:46:35.846821 ## ADB operando corretamente!
+2022-11-07 09:46:40.949768 ## Linux ng2-0000000 3.18.44 #1 PREEMPT Thu Oct 27 14:18:30 UTC 2022 armv7l GNU/Linux
+2022-11-07 09:46:40.950235 ## --------------SUCESSO: Teste 3 - Gravacao Modem para testes
+2022-11-07 09:46:40.951488 ## TestStatus.done
+2022-11-07 09:46:40.951687 ## 
+2022-11-07 09:46:40.976651 ## Teste 4 - Gravacao de arquivos no modem:
+2022-11-07 09:46:41.089672 ## /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/setConsolePort/cl_setConsolePort.sh: 1 file pushed. 0.2 MB/s (1197 bytes in 0.005s)
+2022-11-07 09:46:41.089982 ## /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/setConsolePort/cl_setConsolePort.sh gravado com sucesso
+2022-11-07 09:46:41.135965 ## /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/serialAuxTeste.sh: 1 file pushed. 0.1 MB/s (372 bytes in 0.005s)
+2022-11-07 09:46:41.136284 ## /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/serialAuxTeste.sh gravado com sucesso
+2022-11-07 09:46:42.204593 ## 
+2022-11-07 09:46:42.205108 ## Comando realizado com sucesso: chmod +x /usr/sbin/cl_setConsolePort.sh
+2022-11-07 09:46:43.292282 ## Console changed to ttyHSL1
+2022-11-07 09:46:43.292638 ## Comando realizado com sucesso: /usr/sbin/cl_setConsolePort.sh ttyHSL1
+2022-11-07 09:46:44.358221 ## 
+2022-11-07 09:46:44.358749 ## Comando realizado com sucesso: chmod +x /usr/sbin/serialAuxTeste.sh
+2022-11-07 09:46:45.424423 ## 
+2022-11-07 09:46:45.424874 ## Comando realizado com sucesso: telinit q
+2022-11-07 09:46:45.425121 ## Gravação ADB e comandos avulsos realizados com sucesso
+2022-11-07 09:46:45.425433 ## --------------SUCESSO: Teste 4 - Gravacao de arquivos no modem
+2022-11-07 09:46:45.426982 ## TestStatus.done
+2022-11-07 09:46:45.427229 ## 
+2022-11-07 09:46:45.465302 ## Teste 5A - Teste Morte Sess RS232:
+2022-11-07 09:46:50.662595 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:46:50.662977 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:50.664292 ## [/dev/ttyUSB4]<=_  _  ____   ___  __   _  _
+2022-11-07 09:46:50.665619 ## [/dev/ttyUSB4]<=/ )( \(___ \ / __)/  \ ( \/ )
+2022-11-07 09:46:50.666943 ## [/dev/ttyUSB4]<=\ \/ / / __/( (__(  O )/ \/ \
+2022-11-07 09:46:51.167737 ## Tentando logar...
+2022-11-07 09:46:51.167962 ## [/dev/ttyUSB4]=>
+2022-11-07 09:46:51.172810 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:52.174329 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:52.174705 ## [/dev/ttyUSB4]=>
+2022-11-07 09:46:52.181231 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:52.181816 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:53.183471 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:53.183829 ## [/dev/ttyUSB4]=>
+2022-11-07 09:46:53.190331 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:53.190897 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:54.192566 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:54.192945 ## [/dev/ttyUSB4]=>
+2022-11-07 09:46:54.200880 ## [/dev/ttyUSB4]<=Login incorrect
+2022-11-07 09:46:54.201485 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:54.202060 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:54.214693 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:54.217290 ## [/dev/ttyUSB4]<=ng2-0000000 login:
+2022-11-07 09:46:54.217672 ## [/dev/ttyUSB4]=>root
+2022-11-07 09:46:54.224754 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:46:54.225297 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:55.230722 ## [/dev/ttyUSB4]<=Password:
+2022-11-07 09:46:55.231565 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:46:55.238884 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:55.289852 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:55.294332 ## [/dev/ttyUSB4]<============ GT41 ED04 ===========
+2022-11-07 09:46:55.299644 ## [/dev/ttyUSB4]<=  _  _  [1;34m____[0m   ___  __   _  _
+2022-11-07 09:46:55.304672 ## [/dev/ttyUSB4]<= / )( \[1;34m(___ \[0m / __)/  \ ( \/ )
+2022-11-07 09:46:55.309895 ## [/dev/ttyUSB4]<= \ \/ / [1;34m/ __/[0m( (__(  O )/ \/ \
+2022-11-07 09:46:55.314968 ## [/dev/ttyUSB4]<=  \__/ [1;34m(____)[0m \___)\__/ \_)(_/
+2022-11-07 09:46:55.315620 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:56.317702 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:46:57.319419 ## [/dev/ttyUSB4]<=
+2022-11-07 09:46:57.319797 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:46:57.328563 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:46:57.335002 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:46:57.435938 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:46:57.436889 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:46:57.447372 ## [/dev/ttyUSB4]<=~ # i2cget -y 2 0x20 0x01
+2022-11-07 09:46:58.048993 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:46:58.056007 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:46:58.062131 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:46:58.563188 ## [/dev/ttyUSB4]=>i2cset -y 2 0x20 0x07 0x3f
+2022-11-07 09:46:58.563962 ## [/dev/ttyUSB4]=>i2cset -y 2 0x20 0x03 0xff
+2022-11-07 09:46:58.665185 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:46:58.668762 ## [/dev/ttyUSB4]<=i2cset -y 2 0x20 0x07 0x3f
+2022-11-07 09:46:59.670532 ## [/dev/ttyUSB4]<= 
+2022-11-07 09:47:00.375683 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:47:00.382509 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:47:00.389261 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:47:00.890392 ## --------------SUCESSO: Teste 5A - Teste Morte Sess RS232
+2022-11-07 09:47:00.897339 ## TestStatus.done
+2022-11-07 09:47:00.897621 ## 
+2022-11-07 09:47:00.928331 ## Teste 5Y - Teste V Mais:
+2022-11-07 09:47:01.004360 ## V+ detectado
+2022-11-07 09:47:01.005395 ## --------------SUCESSO: Teste 5Y - Teste V Mais
+2022-11-07 09:47:01.011281 ## TestStatus.done
+2022-11-07 09:47:01.011435 ## 
+2022-11-07 09:47:01.023797 ## Teste 5B - Teste Bandeja SIMCards:
+2022-11-07 09:47:01.159218 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:47:01.159508 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:01.159854 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:47:01.166154 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:47:01.172354 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:47:01.673180 ## Já está logado
+2022-11-07 09:47:01.673352 ## parando scripts automáticos de comunicação
+2022-11-07 09:47:01.673484 ## [/dev/ttyUSB4]=>/etc/init.d/ng2-modem stop
+2022-11-07 09:47:01.673847 ## [/dev/ttyUSB4]=>/etc/init.d/ng2-java stop
+2022-11-07 09:47:01.674110 ## [/dev/ttyUSB4]=>echo 77 > /sys/class/gpio/export
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio77/direction
+echo out > /sys/class/gpio/gpio26/direction
+echo 1 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:01.774735 ## [/dev/ttyUSB4]=>echo 1 > /sys/class/gpio/gpio26/value
+2022-11-07 09:47:01.875701 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:01.876281 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:02.878010 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:02.889032 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:02.892255 ## [/dev/ttyUSB4]<=+CCID: 89550532180062193599
+2022-11-07 09:47:03.894054 ## [/dev/ttyUSB4]=>echo 77 > /sys/class/gpio/export
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio77/direction
+echo out > /sys/class/gpio/gpio26/direction
+echo 1 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:03.994935 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio26/value
+2022-11-07 09:47:04.095957 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:04.096653 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:05.098427 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:05.110626 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:05.114119 ## [/dev/ttyUSB4]<=+CCID: 89550537110007820746
+2022-11-07 09:47:05.114779 ## --------------SUCESSO: Teste 5B - Teste Bandeja SIMCards
+2022-11-07 09:47:05.120365 ## TestStatus.done
+2022-11-07 09:47:05.120691 ## 
+2022-11-07 09:47:05.143627 ## Teste 5C - Teste Comunica:
+2022-11-07 09:47:05.308022 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:47:05.308317 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:05.308667 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:47:05.312677 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:47:05.319357 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:47:05.820160 ## Já está logado
+2022-11-07 09:47:05.820321 ## parando scripts automáticos de comunicação
+2022-11-07 09:47:05.820452 ## [/dev/ttyUSB4]=>/etc/init.d/ng2-modem stop
+2022-11-07 09:47:05.820764 ## [/dev/ttyUSB4]=>/etc/init.d/ng2-java stop
+2022-11-07 09:47:05.821000 ## [/dev/ttyUSB4]=>echo 77 > /sys/class/gpio/export
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio77/direction
+echo out > /sys/class/gpio/gpio26/direction
+echo 1 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:05.921488 ## [/dev/ttyUSB4]=>echo 1 > /sys/class/gpio/gpio26/value
+2022-11-07 09:47:06.022266 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:06.023038 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:06.023673 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:06.044155 ## [/dev/ttyUSB4]<=echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:06.045216 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:47:06.050959 ## [/dev/ttyUSB4]<=~ # microcom -s 115200 /dev/smd11
+2022-11-07 09:47:06.427149 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:06.429431 ## [/dev/ttyUSB4]<=+SIM: Inserted
+2022-11-07 09:47:07.431102 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:07.431475 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:07.442946 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:07.446496 ## [/dev/ttyUSB4]<=+CCID: 89550532180062193599
+2022-11-07 09:47:07.446878 ## [/dev/ttyUSB4]=>ATI
+2022-11-07 09:47:07.467448 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:07.471295 ## [/dev/ttyUSB4]<=Manufacturer: Fibocom Wireless Inc.
+2022-11-07 09:47:07.473173 ## [/dev/ttyUSB4]<=Model: NL668-LA
+2022-11-07 09:47:07.476575 ## [/dev/ttyUSB4]<=Revision: 19096.1041.15.02.00.01
+2022-11-07 09:47:07.478524 ## [/dev/ttyUSB4]<=ESN: +GSN: 0x0
+2022-11-07 09:47:07.480151 ## [/dev/ttyUSB4]<=+GCAP: +CGSM
+2022-11-07 09:47:07.482566 ## [/dev/ttyUSB4]<=IMEI: 860333051203184
+2022-11-07 09:47:07.483160 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:08.484923 ## Testando banda 128
+2022-11-07 09:47:08.485438 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:09.487366 ## [/dev/ttyUSB4]=>AT+CIMI
+2022-11-07 09:47:09.499202 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.501472 ## [/dev/ttyUSB4]<=724051824438447
+2022-11-07 09:47:09.502028 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.502797 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.503147 ## Encontrado mcc mnc compatível
+2022-11-07 09:47:09.503438 ## Configurando APN...
+2022-11-07 09:47:09.503754 ## [/dev/ttyUSB4]=>AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:47:09.548414 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.549268 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.549676 ## [/dev/ttyUSB4]=>AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:47:09.576125 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.577013 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.577433 ## [/dev/ttyUSB4]=>AT+GTRAT=3
+2022-11-07 09:47:09.587065 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.587847 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.588193 ## [/dev/ttyUSB4]=>AT+GTACT=2,3,,128
+2022-11-07 09:47:09.599043 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.599758 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.600065 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:09.863488 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:09.864856 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:09.865535 ## [/dev/ttyUSB4]=>AT+CFUN=1
+2022-11-07 09:47:10.158661 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:10.159404 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:10.159717 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:10.161823 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:10.164237 ## [/dev/ttyUSB4]<=+SIM: Inserted
+2022-11-07 09:47:10.170824 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:10.172409 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:11.174010 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:11.187487 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:11.189500 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:12.191264 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:12.201252 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:12.203067 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:13.204689 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:13.214542 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:13.216322 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:14.218028 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:14.229072 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:14.231100 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:15.232793 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:15.243792 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:15.245664 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:16.247329 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:16.258770 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:16.260555 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:17.262192 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:17.273628 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:17.275410 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:18.277056 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:18.289634 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:18.291390 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:19.293016 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:19.304725 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:19.306506 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:20.308183 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:20.319642 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:20.321420 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:20.321815 ## CSQ falhou!
+2022-11-07 09:47:20.322546 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:21.324376 ## Testando banda 103
+2022-11-07 09:47:21.324835 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:22.326827 ## [/dev/ttyUSB4]=>AT+CIMI
+2022-11-07 09:47:22.338710 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.340928 ## [/dev/ttyUSB4]<=724051824438447
+2022-11-07 09:47:22.341472 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.342230 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:22.342587 ## Encontrado mcc mnc compatível
+2022-11-07 09:47:22.342856 ## Configurando APN...
+2022-11-07 09:47:22.343172 ## [/dev/ttyUSB4]=>AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:47:22.393299 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.394139 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:22.394515 ## [/dev/ttyUSB4]=>AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:47:22.415312 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.416038 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:22.416362 ## [/dev/ttyUSB4]=>AT+GTRAT=3
+2022-11-07 09:47:22.426371 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.427042 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:22.427354 ## [/dev/ttyUSB4]=>AT+GTACT=2,3,,103
+2022-11-07 09:47:22.436968 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:22.437679 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:22.438054 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:23.439868 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:23.440227 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:24.442202 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:24.442570 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:25.444586 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:25.449167 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:26.451426 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:26.451794 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:27.453736 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:27.454099 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:27.819972 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:27.820742 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:27.821149 ## [/dev/ttyUSB4]=>AT+CFUN=1
+2022-11-07 09:47:28.112424 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:28.113097 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:28.113388 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:28.125960 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:28.127537 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:29.129153 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:29.141950 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:29.143747 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:30.145389 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:30.155174 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:30.156535 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:31.158140 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:31.173248 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:31.175043 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:32.176634 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:32.188023 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:32.189389 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:33.190997 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:33.202377 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:33.204132 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:34.205713 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:34.216910 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:34.218298 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:35.219865 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:35.230283 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:35.232056 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:36.233624 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:36.245807 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:36.247002 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:37.248593 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:37.259515 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:37.261286 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:38.262845 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:38.273958 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:38.275162 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:38.275471 ## CSQ falhou!
+2022-11-07 09:47:38.275935 ## --------------ERRO: Não foi possível validar HTTP nas bandas 3, 7 ou 28 no Simcard com CCID: +CCID: 89550532180062193599
+2022-11-07 09:47:38.276201 ## [/dev/ttyUSB4]=>echo 77 > /sys/class/gpio/export
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio77/direction
+echo out > /sys/class/gpio/gpio26/direction
+echo 1 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:38.376918 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio26/value
+2022-11-07 09:47:38.478006 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:38.478746 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:38.479362 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:38.502256 ## [/dev/ttyUSB4]<=echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:47:38.503321 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:47:38.507330 ## [/dev/ttyUSB4]<=~ # microcom -s 115200 /dev/smd11
+2022-11-07 09:47:39.508932 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:39.509298 ## [/dev/ttyUSB4]=>AT+CCID
+2022-11-07 09:47:39.524477 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:39.528012 ## [/dev/ttyUSB4]<=+CCID: 89550532180062193599
+2022-11-07 09:47:39.528737 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:40.530226 ## Testando banda 128
+2022-11-07 09:47:40.530696 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:41.532633 ## [/dev/ttyUSB4]=>AT+CIMI
+2022-11-07 09:47:41.544594 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.546867 ## [/dev/ttyUSB4]<=724051824438447
+2022-11-07 09:47:41.547429 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.548270 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:41.548621 ## Encontrado mcc mnc compatível
+2022-11-07 09:47:41.548891 ## Configurando APN...
+2022-11-07 09:47:41.549209 ## [/dev/ttyUSB4]=>AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:47:41.599460 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.600329 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:41.600711 ## [/dev/ttyUSB4]=>AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:47:41.623610 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.624276 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:41.624565 ## [/dev/ttyUSB4]=>AT+GTRAT=3
+2022-11-07 09:47:41.634505 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.635108 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:41.635384 ## [/dev/ttyUSB4]=>AT+GTACT=2,3,,128
+2022-11-07 09:47:41.644963 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:41.645608 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:41.645891 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:42.647742 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:42.648199 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:43.650109 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:43.650480 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:44.652418 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:44.652790 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:45.654692 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:45.655060 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:46.657012 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:46.662750 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:47:46.738603 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:46.739357 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:46.739805 ## [/dev/ttyUSB4]=>AT+CFUN=1
+2022-11-07 09:47:47.026524 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:47.027405 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:47.027780 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:47.039383 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:47.041173 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:48.042792 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:48.055461 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:48.057245 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:49.058969 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:49.068890 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:49.070655 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:50.072312 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:50.083718 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:50.085487 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:51.087128 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:51.098379 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:51.100140 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:52.101799 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:52.116903 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:52.118756 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:53.120468 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:53.131721 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:53.133479 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:54.135073 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:54.146372 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:54.148235 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:55.149899 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:55.162254 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:55.164026 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:56.165640 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:56.176945 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:56.178913 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:57.180623 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:47:57.191986 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:57.193978 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:47:57.194459 ## CSQ falhou!
+2022-11-07 09:47:57.195249 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:58.197072 ## Testando banda 103
+2022-11-07 09:47:58.197570 ## [/dev/ttyUSB4]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:47:59.199590 ## [/dev/ttyUSB4]=>AT+CIMI
+2022-11-07 09:47:59.211318 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.213552 ## [/dev/ttyUSB4]<=724051129181114
+2022-11-07 09:47:59.214110 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.214871 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:59.215202 ## Encontrado mcc mnc compatível
+2022-11-07 09:47:59.215473 ## Configurando APN...
+2022-11-07 09:47:59.215793 ## [/dev/ttyUSB4]=>AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:47:59.266247 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.266981 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:59.267308 ## [/dev/ttyUSB4]=>AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:47:59.288562 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.289282 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:59.289602 ## [/dev/ttyUSB4]=>AT+GTRAT=3
+2022-11-07 09:47:59.299620 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.300306 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:59.300641 ## [/dev/ttyUSB4]=>AT+GTACT=2,3,,103
+2022-11-07 09:47:59.310256 ## [/dev/ttyUSB4]<=
+2022-11-07 09:47:59.310960 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:47:59.311273 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:00.313041 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:00.313445 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:01.315437 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:01.315817 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:02.317843 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:02.321847 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:03.324068 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:03.324451 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:04.326321 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:04.326683 ## [/dev/ttyUSB4]=>AT+CFUN=0
+2022-11-07 09:48:04.726321 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:04.727399 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:48:04.727950 ## [/dev/ttyUSB4]=>AT+CFUN=1
+2022-11-07 09:48:04.992130 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:04.992990 ## [/dev/ttyUSB4]<=OK
+2022-11-07 09:48:04.993362 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:05.005404 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:05.007156 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:06.008800 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:06.020070 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:06.021854 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:07.023532 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:07.035101 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:07.036869 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:08.038498 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:08.053116 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:08.054982 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:09.056657 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:09.068016 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:09.069823 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:10.071474 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:10.082364 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:10.084328 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:11.086043 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:11.097403 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:11.099297 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:12.100991 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:12.113365 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:12.114887 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:13.116529 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:13.127939 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:13.129791 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:14.131475 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:14.142748 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:14.144707 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:15.146468 ## [/dev/ttyUSB4]=>AT+CSQ
+2022-11-07 09:48:15.157884 ## [/dev/ttyUSB4]<=
+2022-11-07 09:48:15.159736 ## [/dev/ttyUSB4]<=+CSQ: 99,99
+2022-11-07 09:48:15.160096 ## CSQ falhou!
+2022-11-07 09:48:15.160688 ## --------------ERRO: Não foi possível validar HTTP nas bandas 3, 7 ou 28 no Simcard com CCID: +CCID: 89550532180062193599
+2022-11-07 09:48:39.880445 ## Tentando novamente: Teste 5C - Teste Comunica
+2022-11-07 09:48:40.021113 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:48:41.022592 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:42.024228 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:43.026045 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:44.027831 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:44.529008 ## Tentando logar...
+2022-11-07 09:48:44.529475 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:45.531195 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:45.531361 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:46.533032 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:46.533443 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:47.540388 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:47.540778 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:48.542655 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:48.543067 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:49.544917 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:49.545301 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:50.547169 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:50.547550 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:51.549461 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:51.549913 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:52.557121 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:52.557459 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:53.559382 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:53.559767 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:54.561664 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:54.562068 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:55.563948 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:55.564338 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:56.566210 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:56.566634 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:57.573220 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:57.573673 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:58.575539 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:58.575922 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:59.577580 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:59.577746 ## [/dev/ttyUSB0]=>
+2022-11-07 09:48:59.805701 ## [/dev/ttyUSB0]<=
+2022-11-07 09:48:59.822310 ## [/dev/ttyUSB0]<=  _  _  ____   ___  __   _  _
+2022-11-07 09:48:59.823690 ## [/dev/ttyUSB0]<= / )( \(___ \ / __)/  \ ( \/ )
+2022-11-07 09:48:59.825035 ## [/dev/ttyUSB0]<= \ \/ / / __/( (__(  O )/ \/ \
+2022-11-07 09:48:59.826355 ## [/dev/ttyUSB0]<=  \__/ (____) \___)\__/ \_)(_/
+2022-11-07 09:48:59.826611 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:00.828843 ## [/dev/ttyUSB0]<=ng2-0000000 login:
+2022-11-07 09:49:00.829316 ## [/dev/ttyUSB0]=>root
+2022-11-07 09:49:00.834623 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:01.869039 ## [/dev/ttyUSB0]<=Password:
+2022-11-07 09:49:01.869744 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:01.875050 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:01.926947 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:01.930642 ## [/dev/ttyUSB0]<============ GT41 ED04 ===========
+2022-11-07 09:49:01.935013 ## [/dev/ttyUSB0]<=  _  _  [1;34m____[0m   ___  __   _  _
+2022-11-07 09:49:01.939449 ## [/dev/ttyUSB0]<= / )( \[1;34m(___ \[0m / __)/  \ ( \/ )
+2022-11-07 09:49:01.943754 ## [/dev/ttyUSB0]<= \ \/ / [1;34m/ __/[0m( (__(  O )/ \/ \
+2022-11-07 09:49:01.948078 ## [/dev/ttyUSB0]<=  \__/ [1;34m(____)[0m \___)\__/ \_)(_/
+2022-11-07 09:49:01.948646 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:02.950611 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:03.952095 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:03.952257 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:03.957358 ## [/dev/ttyUSB0]<=whoami
+2022-11-07 09:49:03.967917 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:03.968072 ## parando scripts automáticos de comunicação
+2022-11-07 09:49:03.968186 ## [/dev/ttyUSB0]=>/etc/init.d/ng2-modem stop
+2022-11-07 09:49:03.968389 ## [/dev/ttyUSB0]=>/etc/init.d/ng2-java stop
+2022-11-07 09:49:03.968637 ## [/dev/ttyUSB0]=>echo 77 > /sys/class/gpio/export
+echo 26 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio77/direction
+echo out > /sys/class/gpio/gpio26/direction
+echo 1 > /sys/class/gpio/gpio77/value
+2022-11-07 09:49:04.069221 ## [/dev/ttyUSB0]=>echo 1 > /sys/class/gpio/gpio26/value
+2022-11-07 09:49:04.169795 ## [/dev/ttyUSB0]=>echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:49:04.170237 ## [/dev/ttyUSB0]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:49:04.170600 ## [/dev/ttyUSB0]=>AT+CCID
+2022-11-07 09:49:04.188596 ## [/dev/ttyUSB0]<=echo 0 > /sys/class/gpio/gpio77/value
+2022-11-07 09:49:04.189031 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:04.190381 ## [/dev/ttyUSB0]<=~ # microcom -s 115200 /dev/smd11
+2022-11-07 09:49:04.561562 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:04.562322 ## [/dev/ttyUSB0]<=+SIM: Inserted
+2022-11-07 09:49:05.563857 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:05.564300 ## [/dev/ttyUSB0]=>AT+CCID
+2022-11-07 09:49:05.575220 ## [/dev/ttyUSB0]<=AT+CCID
+2022-11-07 09:49:05.578823 ## [/dev/ttyUSB0]<=+CCID: 89550532180062193599
+2022-11-07 09:49:05.579225 ## [/dev/ttyUSB0]=>ATI
+2022-11-07 09:49:05.601019 ## [/dev/ttyUSB0]<=ATI
+2022-11-07 09:49:05.605368 ## [/dev/ttyUSB0]<=Manufacturer: Fibocom Wireless Inc.
+2022-11-07 09:49:05.608636 ## [/dev/ttyUSB0]<=Model: NL668-LA
+2022-11-07 09:49:05.611692 ## [/dev/ttyUSB0]<=Revision: 19096.1041.15.02.00.01
+2022-11-07 09:49:05.613229 ## [/dev/ttyUSB0]<=ESN: +GSN: 0x0
+2022-11-07 09:49:05.614598 ## [/dev/ttyUSB0]<=+GCAP: +CGSM
+2022-11-07 09:49:05.616672 ## [/dev/ttyUSB0]<=IMEI: 860333051203184
+2022-11-07 09:49:05.617138 ## [/dev/ttyUSB0]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:49:06.618751 ## Testando banda 128
+2022-11-07 09:49:06.619160 ## [/dev/ttyUSB0]=>microcom -s 115200 /dev/smd11
+2022-11-07 09:49:07.620931 ## [/dev/ttyUSB0]=>AT+CIMI
+2022-11-07 09:49:07.632458 ## [/dev/ttyUSB0]<=AT+CIMI
+2022-11-07 09:49:07.634376 ## [/dev/ttyUSB0]<=724051824438447
+2022-11-07 09:49:07.634910 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:07.635645 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:07.635974 ## Encontrado mcc mnc compatível
+2022-11-07 09:49:07.636221 ## Configurando APN...
+2022-11-07 09:49:07.636513 ## [/dev/ttyUSB0]=>AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:49:07.680175 ## [/dev/ttyUSB0]<=AT+CGDCONT=1,"IP","cat-m1.claro.com.br"
+2022-11-07 09:49:07.680917 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:07.681274 ## [/dev/ttyUSB0]=>AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:49:07.737672 ## [/dev/ttyUSB0]<=AT$QCPDPP=1,1,"claro","claro"
+2022-11-07 09:49:07.738495 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:07.738836 ## [/dev/ttyUSB0]=>AT+GTRAT=3
+2022-11-07 09:49:07.748044 ## [/dev/ttyUSB0]<=AT+GTRAT=3
+2022-11-07 09:49:07.748729 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:07.749042 ## [/dev/ttyUSB0]=>AT+GTACT=2,3,,128
+2022-11-07 09:49:07.761814 ## [/dev/ttyUSB0]<=AT+GTACT=2,3,,128
+2022-11-07 09:49:07.762555 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:07.762902 ## [/dev/ttyUSB0]=>AT+CFUN=0
+2022-11-07 09:49:08.234602 ## [/dev/ttyUSB0]<=AT+CFUN=0
+2022-11-07 09:49:08.235337 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:08.235655 ## [/dev/ttyUSB0]=>AT+CFUN=1
+2022-11-07 09:49:08.522982 ## [/dev/ttyUSB0]<=AT+CFUN=1
+2022-11-07 09:49:08.523849 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:08.524286 ## [/dev/ttyUSB0]=>AT+CSQ
+2022-11-07 09:49:08.534951 ## [/dev/ttyUSB0]<=AT+CSQ
+2022-11-07 09:49:08.536800 ## [/dev/ttyUSB0]<=+CSQ: 99,99
+2022-11-07 09:49:09.538059 ## [/dev/ttyUSB0]=>AT+CSQ
+2022-11-07 09:49:09.558244 ## [/dev/ttyUSB0]<=AT+CSQ
+2022-11-07 09:49:09.558896 ## [/dev/ttyUSB0]<=+CSQ: 99,99
+2022-11-07 09:49:10.560240 ## [/dev/ttyUSB0]=>AT+CSQ
+2022-11-07 09:49:10.568540 ## [/dev/ttyUSB0]<=AT+CSQ
+2022-11-07 09:49:10.569157 ## [/dev/ttyUSB0]<=+CSQ: 20,99
+2022-11-07 09:49:10.569290 ## CSQ aprovado!
+2022-11-07 09:49:10.569401 ## [/dev/ttyUSB0]=>AT+COPS?
+2022-11-07 09:49:10.579388 ## [/dev/ttyUSB0]<=AT+COPS?
+2022-11-07 09:49:10.580469 ## [/dev/ttyUSB0]<=+COPS: 0,0,"CLARO BR",7
+2022-11-07 09:49:10.580591 ## COPS aprovado!
+2022-11-07 09:49:10.580702 ## [/dev/ttyUSB0]=>AT+MIPCALL=1
+2022-11-07 09:49:10.600996 ## [/dev/ttyUSB0]<=AT+MIPCALL=1
+2022-11-07 09:49:10.601319 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:10.601469 ## [/dev/ttyUSB0]=>AT+HTTPSET="URL","http://www.google.com"
+2022-11-07 09:49:10.605724 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:10.606772 ## [/dev/ttyUSB0]<=+MIPCALL: 10.140.132.169
+2022-11-07 09:49:10.710030 ## [/dev/ttyUSB0]<=AT+HTTPSET="URL","http://www.google.com"
+2022-11-07 09:49:10.710353 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:10.710504 ## [/dev/ttyUSB0]=>AT+HTTPSET="RANGE",""
+2022-11-07 09:49:10.720156 ## [/dev/ttyUSB0]<=AT+HTTPSET="RANGE",""
+2022-11-07 09:49:10.720462 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:10.720595 ## [/dev/ttyUSB0]=>AT+HTTPSET?
+2022-11-07 09:49:10.749298 ## [/dev/ttyUSB0]<=AT+HTTPSET?
+2022-11-07 09:49:10.750930 ## [/dev/ttyUSB0]<=+HTTPSET: "URL","http://www.google.com"
+2022-11-07 09:49:10.752539 ## [/dev/ttyUSB0]<=+HTTPSET: "UAGENT","Fibocom GPRS module"
+2022-11-07 09:49:10.753577 ## [/dev/ttyUSB0]<=+HTTPSET: "ACCEPT","*/*"
+2022-11-07 09:49:10.756372 ## [/dev/ttyUSB0]<=+HTTPSET: "CONTYPE","application/x-www-form-urlencodedmultipart/form-data"
+2022-11-07 09:49:10.757685 ## [/dev/ttyUSB0]<=+HTTPSET: "RESPONSEHEADER","0"
+2022-11-07 09:49:10.758667 ## [/dev/ttyUSB0]<=+HTTPSET: "MODE","0"
+2022-11-07 09:49:10.759612 ## [/dev/ttyUSB0]<=+HTTPSET: "REDIR","0"
+2022-11-07 09:49:10.760503 ## [/dev/ttyUSB0]<=+HTTPSET: "RANGE",""
+2022-11-07 09:49:10.760722 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:10.760982 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:10.761132 ## ['AT+HTTPSET?\r\r\n', '+HTTPSET: "URL","http://www.google.com"\r\n', '+HTTPSET: "UAGENT","Fibocom GPRS module"\r\n', '+HTTPSET: "ACCEPT","*/*"\r\n', '+HTTPSET: "CONTYPE","application/x-www-form-urlencodedmultipart/form-data"\r\n', '+HTTPSET: "RESPONSEHEADER","0"\r\n', '+HTTPSET: "MODE","0"\r\n', '+HTTPSET: "REDIR","0"\r\n', '+HTTPSET: "RANGE",""\r\n', '\r\n', 'OK\r\n']
+2022-11-07 09:49:10.761254 ## [/dev/ttyUSB0]=>AT+HTTPACT=0
+2022-11-07 09:49:10.771206 ## [/dev/ttyUSB0]<=AT+HTTPACT=0
+2022-11-07 09:49:10.942875 ## [/dev/ttyUSB0]<=OK
+2022-11-07 09:49:10.943345 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:10.944524 ## [/dev/ttyUSB0]<=+HTTP: 1
+2022-11-07 09:49:11.164863 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:11.166691 ## [/dev/ttyUSB0]<=+HTTPRES: 0,200,15530
+2022-11-07 09:49:11.167209 ## --------------SUCESSO: Teste 5C - Teste Comunica
+2022-11-07 09:49:11.173528 ## TestStatus.done
+2022-11-07 09:49:11.173730 ## 
+2022-11-07 09:49:11.189101 ## Teste 5E - Teste Sensor Temperatura:
+2022-11-07 09:49:28.264580 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:28.264873 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:28.265218 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:28.271841 ## [/dev/ttyUSB0]<=~ # whoami
+2022-11-07 09:49:28.277613 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:28.778073 ## Já está logado
+2022-11-07 09:49:28.878959 ## [/dev/ttyUSB0]=>i2ctransfer -y 2 r2@0x48
+2022-11-07 09:49:28.891163 ## [/dev/ttyUSB0]<=i2ctransfer -y 2 r2@0x48
+2022-11-07 09:49:28.907099 ## [/dev/ttyUSB0]<=0x17 0x7f
+2022-11-07 09:49:29.408277 ## Temperatura registrada é: 23.0ºC
+2022-11-07 09:49:29.408605 ## --------------SUCESSO: Teste 5E - Teste Sensor Temperatura
+2022-11-07 09:49:29.415439 ## TestStatus.done
+2022-11-07 09:49:29.415712 ## 
+2022-11-07 09:49:29.430893 ## Teste 5F - Teste Leds:
+2022-11-07 09:49:29.595111 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:29.595403 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:29.595750 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:29.601962 ## [/dev/ttyUSB0]<=~ # whoami
+2022-11-07 09:49:29.607901 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:30.108695 ## Já está logado
+2022-11-07 09:49:30.209344 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:30.219537 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:30.223839 ## [/dev/ttyUSB0]<=0x38
+2022-11-07 09:49:30.724858 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x06 0x80
+2022-11-07 09:49:30.725641 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x00
+2022-11-07 09:49:39.276985 ## LED LD10 azul OK
+2022-11-07 09:49:39.302115 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x01
+2022-11-07 09:49:40.000106 ## LED LD11 amarelo OK
+2022-11-07 09:49:40.046699 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x02
+2022-11-07 09:49:40.432106 ## LED LD11 verde OK
+2022-11-07 09:49:40.471023 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x04
+2022-11-07 09:49:40.752278 ## LED LD6 vermelho OK
+2022-11-07 09:49:40.777163 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x08
+2022-11-07 09:49:41.032436 ## LED LD6 verde OK
+2022-11-07 09:49:41.063281 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x20
+2022-11-07 09:49:41.320443 ## LED LD8 vermelho OK
+2022-11-07 09:49:41.379561 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x10
+2022-11-07 09:49:41.616411 ## LED LD7 verde OK
+2022-11-07 09:49:41.666320 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x40
+2022-11-07 09:49:41.920385 ## LED LD9 verde OK
+2022-11-07 09:49:41.955944 ## --------------SUCESSO: Teste 5F - Teste Leds
+2022-11-07 09:49:41.956311 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x02 0x00
+2022-11-07 09:49:41.983529 ## TestStatus.done
+2022-11-07 09:49:41.983790 ## 
+2022-11-07 09:49:41.996655 ## Teste 5G - Teste IO:
+2022-11-07 09:49:42.127485 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:42.127809 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:42.128179 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:42.132171 ## [/dev/ttyUSB0]<=~ # whoami
+2022-11-07 09:49:42.138412 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:42.639342 ## Já está logado
+2022-11-07 09:49:42.740262 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:42.749624 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:42.752808 ## [/dev/ttyUSB0]<=0x38
+2022-11-07 09:49:43.254006 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x03 0x00
+2022-11-07 09:49:43.254714 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x07 0x3F
+2022-11-07 09:49:43.255247 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x03 0x00
+2022-11-07 09:49:44.480788 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:44.492074 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:44.495187 ## [/dev/ttyUSB0]<=0x30
+2022-11-07 09:49:46.127374 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:46.138447 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:46.141439 ## [/dev/ttyUSB0]<=0x28
+2022-11-07 09:49:47.770101 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:47.780994 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:47.784444 ## [/dev/ttyUSB0]<=0x18
+2022-11-07 09:49:48.315120 ## --------------SUCESSO: Teste 5G - Teste IO
+2022-11-07 09:49:48.324541 ## TestStatus.done
+2022-11-07 09:49:48.324891 ## 
+2022-11-07 09:49:48.354334 ## Teste 5I - Teste RST:
+2022-11-07 09:49:48.518795 ## [/dev/ttyUSB0]=>whoami
+2022-11-07 09:49:48.519096 ## [/dev/ttyUSB0]<=
+2022-11-07 09:49:48.519444 ## [/dev/ttyUSB0]<=~ #
+2022-11-07 09:49:48.525719 ## [/dev/ttyUSB0]<=~ # whoami
+2022-11-07 09:49:48.531666 ## [/dev/ttyUSB0]<=root
+2022-11-07 09:49:49.032438 ## Já está logado
+2022-11-07 09:49:49.132985 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:49.143087 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:49.147927 ## [/dev/ttyUSB0]<=0x00
+2022-11-07 09:49:49.763573 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x03 0x00
+2022-11-07 09:49:49.764057 ## [/dev/ttyUSB0]=>i2cset -y 2 0x20 0x07 0x3F
+2022-11-07 09:49:50.365340 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:50.375227 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:50.379328 ## [/dev/ttyUSB0]<=0x00
+2022-11-07 09:49:51.481414 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:51.490431 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:51.504762 ## [/dev/ttyUSB0]<=0x00
+2022-11-07 09:49:52.607022 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:52.618881 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:52.621822 ## [/dev/ttyUSB0]<=0x00
+2022-11-07 09:49:53.724088 ## [/dev/ttyUSB0]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:49:53.735844 ## [/dev/ttyUSB0]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:49:53.738925 ## [/dev/ttyUSB0]<=0x00
+2022-11-07 09:49:54.240070 ## --------------ERRO: Erro em Fase R
+2022-11-07 09:50:11.259657 ## Tentando novamente: Teste 5I - Teste RST
+2022-11-07 09:50:11.386280 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:50:12.388007 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:13.389769 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:14.391503 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:15.393216 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:15.894347 ## Tentando logar...
+2022-11-07 09:50:15.894688 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:16.896509 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:16.896891 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:17.898856 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:17.899261 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:18.901201 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:18.901588 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:19.903463 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:19.903805 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:20.905661 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:20.906032 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:21.908033 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:21.908422 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:22.910357 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:22.910753 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:23.912711 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:23.913113 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:24.915017 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:24.915389 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:25.917243 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:25.917580 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:26.919278 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:26.919447 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:27.921112 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:27.921494 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:28.923430 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:28.923785 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:29.925426 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:29.925605 ## [/dev/ttyUSB4]=>
+2022-11-07 09:50:30.297036 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:30.313586 ## [/dev/ttyUSB4]<=  _  _  ____   ___  __   _  _
+2022-11-07 09:50:30.314960 ## [/dev/ttyUSB4]<= / )( \(___ \ / __)/  \ ( \/ )
+2022-11-07 09:50:30.316279 ## [/dev/ttyUSB4]<= \ \/ / / __/( (__(  O )/ \/ \
+2022-11-07 09:50:30.317586 ## [/dev/ttyUSB4]<=  \__/ (____) \___)\__/ \_)(_/
+2022-11-07 09:50:30.317879 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:31.320085 ## [/dev/ttyUSB4]<=ng2-0000000 login:
+2022-11-07 09:50:31.320506 ## [/dev/ttyUSB4]=>root
+2022-11-07 09:50:31.325751 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:50:32.361465 ## [/dev/ttyUSB4]<=Password:
+2022-11-07 09:50:32.362166 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:50:32.367493 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:32.418018 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:32.421657 ## [/dev/ttyUSB4]<============ GT41 ED04 ===========
+2022-11-07 09:50:32.425998 ## [/dev/ttyUSB4]<=  _  _  [1;34m____[0m   ___  __   _  _
+2022-11-07 09:50:32.430367 ## [/dev/ttyUSB4]<= / )( \[1;34m(___ \[0m / __)/  \ ( \/ )
+2022-11-07 09:50:32.434660 ## [/dev/ttyUSB4]<= \ \/ / [1;34m/ __/[0m( (__(  O )/ \/ \
+2022-11-07 09:50:32.438965 ## [/dev/ttyUSB4]<=  \__/ [1;34m(____)[0m \___)\__/ \_)(_/
+2022-11-07 09:50:32.439536 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:33.441368 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:50:34.442755 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:34.442924 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:50:34.448041 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:50:34.458662 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:50:34.559221 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:50:34.559642 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:50:34.567170 ## [/dev/ttyUSB4]<=~ # i2cget -y 2 0x20 0x01
+2022-11-07 09:50:35.198256 ## [/dev/ttyUSB4]=>i2cset -y 2 0x20 0x03 0x00
+2022-11-07 09:50:35.198606 ## [/dev/ttyUSB4]=>i2cset -y 2 0x20 0x07 0x3F
+2022-11-07 09:50:35.799840 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:50:35.808720 ## [/dev/ttyUSB4]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:50:35.811720 ## [/dev/ttyUSB4]<=0x38
+2022-11-07 09:50:36.913555 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:50:36.922190 ## [/dev/ttyUSB4]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:50:36.923902 ## [/dev/ttyUSB4]<=0x3a
+2022-11-07 09:50:38.025654 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:50:38.033587 ## [/dev/ttyUSB4]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:50:38.035888 ## [/dev/ttyUSB4]<=0x3c
+2022-11-07 09:50:39.137541 ## [/dev/ttyUSB4]=>i2cget -y 2 0x20 0x01
+2022-11-07 09:50:39.145563 ## [/dev/ttyUSB4]<=i2cget -y 2 0x20 0x01
+2022-11-07 09:50:39.147963 ## [/dev/ttyUSB4]<=0x39
+2022-11-07 09:50:39.648775 ## --------------SUCESSO: Teste 5I - Teste RST
+2022-11-07 09:50:39.655687 ## TestStatus.done
+2022-11-07 09:50:39.655814 ## 
+2022-11-07 09:50:39.668709 ## Teste 5J - Teste Bat Status:
+2022-11-07 09:50:39.799613 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:50:39.799903 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:39.800246 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:50:39.804309 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:50:39.810566 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:50:40.311613 ## Já está logado
+2022-11-07 09:50:40.312075 ## [/dev/ttyUSB4]=>echo 76 > /sys/class/gpio/export
+2022-11-07 09:50:40.312699 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio76/direction
+2022-11-07 09:50:40.914289 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:40.926639 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:40.928140 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:50:48.945346 ## [/dev/ttyUSB4]=>echo 79 > /sys/class/gpio/export
+2022-11-07 09:50:48.945930 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio79/direction
+2022-11-07 09:50:49.547541 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:49.560410 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:49.561127 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:50:50.062232 ## [/dev/ttyUSB4]=>echo 78 > /sys/class/gpio/export
+2022-11-07 09:50:50.062828 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio78/direction
+2022-11-07 09:50:50.664409 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio78/value
+2022-11-07 09:50:50.676669 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio78/value
+2022-11-07 09:50:50.678076 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:50:51.179152 ## [/dev/ttyUSB4]=>echo 76 > /sys/class/gpio/export
+2022-11-07 09:50:51.179725 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio76/direction
+2022-11-07 09:50:51.781377 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:51.793545 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:51.794942 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:50:52.295990 ## Bateria carregando
+2022-11-07 09:50:52.296496 ## --------------SUCESSO: Teste 5J - Teste Bat Status
+2022-11-07 09:50:52.305272 ## TestStatus.done
+2022-11-07 09:50:52.305601 ## 
+2022-11-07 09:50:52.399947 ## Teste 5K - Teste Last Gasp:
+2022-11-07 09:50:52.551725 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:50:52.552014 ## [/dev/ttyUSB4]<=
+2022-11-07 09:50:52.552363 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:50:52.556403 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:50:52.562551 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:50:53.063415 ## Já está logado
+2022-11-07 09:50:53.063616 ## Corte de Alimentacao DUT
+2022-11-07 09:50:55.066125 ## [/dev/ttyUSB4]=>echo 79 > /sys/class/gpio/export
+2022-11-07 09:50:55.066886 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio79/direction
+2022-11-07 09:50:55.668744 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:55.681714 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:55.682470 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:50:56.183554 ## [/dev/ttyUSB4]=>echo 78 > /sys/class/gpio/export
+2022-11-07 09:50:56.184207 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio78/direction
+2022-11-07 09:50:56.785944 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio78/value
+2022-11-07 09:50:56.800847 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio78/value
+2022-11-07 09:50:56.801598 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:50:57.302630 ## [/dev/ttyUSB4]=>echo 76 > /sys/class/gpio/export
+2022-11-07 09:50:57.303320 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio76/direction
+2022-11-07 09:50:57.905165 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:57.920199 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio76/value
+2022-11-07 09:50:57.921143 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:50:58.422228 ## Bateria em precharge
+2022-11-07 09:50:58.422649 ## [/dev/ttyUSB4]=>echo 79 > /sys/class/gpio/export
+2022-11-07 09:50:58.423221 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio79/direction
+2022-11-07 09:50:59.025034 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:59.039495 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio79/value
+2022-11-07 09:50:59.040503 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:50:59.541645 ## [/dev/ttyUSB4]=>echo 78 > /sys/class/gpio/export
+2022-11-07 09:50:59.542420 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio78/direction
+2022-11-07 09:51:00.144272 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio78/value
+2022-11-07 09:51:00.158651 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio78/value
+2022-11-07 09:51:00.159466 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:51:00.660554 ## [/dev/ttyUSB4]=>echo 76 > /sys/class/gpio/export
+2022-11-07 09:51:00.661331 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio76/direction
+2022-11-07 09:51:01.263230 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio76/value
+2022-11-07 09:51:01.278469 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio76/value
+2022-11-07 09:51:01.279274 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:51:01.780278 ## Bateria carregada
+2022-11-07 09:51:01.780638 ## Last gasp funcionando
+2022-11-07 09:51:27.255372 ## --------------SUCESSO: Teste 5K - Teste Last Gasp
+2022-11-07 09:51:27.261714 ## TestStatus.done
+2022-11-07 09:51:27.261918 ## 
+2022-11-07 09:51:27.307213 ## Teste 6A - Teste Readme Bite:
+2022-11-07 09:51:27.447669 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:51:27.448060 ## [/dev/ttyUSB4]<=
+2022-11-07 09:51:27.452925 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:51:27.453498 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:51:27.458669 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:51:27.959536 ## Já está logado
+2022-11-07 09:51:27.959737 ## [/dev/ttyUSB4]=>echo 21 > /sys/class/gpio/export
+2022-11-07 09:51:27.959977 ## [/dev/ttyUSB4]=>echo 20 > /sys/class/gpio/export
+2022-11-07 09:51:27.960172 ## [/dev/ttyUSB4]=>echo out > /sys/class/gpio/gpio20/direction
+2022-11-07 09:51:27.960356 ## [/dev/ttyUSB4]=>echo in > /sys/class/gpio/gpio21/direction
+2022-11-07 09:51:27.960538 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio20/value
+2022-11-07 09:51:28.061349 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:28.065280 ## [/dev/ttyUSB4]<=echo 21 > /sys/class/gpio/export
+2022-11-07 09:51:28.070309 ## [/dev/ttyUSB4]<=sh: write error: Device or resource busy
+2022-11-07 09:51:28.571403 ## [/dev/ttyUSB4]=>echo 0 > /sys/class/gpio/gpio20/value
+2022-11-07 09:51:28.772650 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:28.785415 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:28.786166 ## [/dev/ttyUSB4]<=0
+2022-11-07 09:51:29.287237 ## [/dev/ttyUSB4]=>echo 1 > /sys/class/gpio/gpio20/value
+2022-11-07 09:51:29.388511 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:29.392545 ## [/dev/ttyUSB4]<=echo 1 > /sys/class/gpio/gpio20/value
+2022-11-07 09:51:29.393415 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:51:29.894464 ## [/dev/ttyUSB4]=>echo 1 > /sys/class/gpio/gpio20/value
+2022-11-07 09:51:30.095788 ## [/dev/ttyUSB4]=>cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:30.108035 ## [/dev/ttyUSB4]<=cat /sys/class/gpio/gpio21/value
+2022-11-07 09:51:30.108812 ## [/dev/ttyUSB4]<=1
+2022-11-07 09:51:30.609771 ## README-BITE OK
+2022-11-07 09:51:30.610110 ## --------------SUCESSO: Teste 6A - Teste Readme Bite
+2022-11-07 09:51:30.616342 ## TestStatus.done
+2022-11-07 09:51:30.616610 ## 
+2022-11-07 09:51:30.648652 ## Teste 6B - Teste Botao:
+2022-11-07 09:51:30.810171 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:51:30.810461 ## [/dev/ttyUSB4]<=
+2022-11-07 09:51:30.810812 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:51:30.814964 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:51:30.820715 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:51:31.321492 ## Já está logado
+2022-11-07 09:51:31.422327 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:31.430468 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:31.434037 ## [/dev/ttyUSB4]<=0x00
+2022-11-07 09:51:31.935016 ## Watchdog ainda não recebeu comando I2C
+2022-11-07 09:51:33.713420 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0xb0
+2022-11-07 09:51:34.314836 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:34.324045 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:34.328802 ## [/dev/ttyUSB4]<=0xbd
+2022-11-07 09:51:34.829770 ## Resultado: 0xbd
+2022-11-07 09:51:36.426519 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0xb0
+2022-11-07 09:51:37.027992 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:37.037064 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:37.041424 ## [/dev/ttyUSB4]<=0xbe
+2022-11-07 09:51:37.542435 ## Resultado: 0xbe
+2022-11-07 09:51:37.542851 ## Botão funciona
+2022-11-07 09:51:37.657078 ## --------------SUCESSO: Teste 6B - Teste Botao
+2022-11-07 09:51:37.663232 ## TestStatus.done
+2022-11-07 09:51:37.663455 ## 
+2022-11-07 09:51:37.676270 ## Teste 6C - Teste Leituras:
+2022-11-07 09:51:37.807340 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:51:37.807636 ## [/dev/ttyUSB4]<=
+2022-11-07 09:51:37.808032 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:51:37.814516 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:51:37.820682 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:51:38.321652 ## Já está logado
+2022-11-07 09:51:38.422763 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:38.432808 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:38.437079 ## [/dev/ttyUSB4]<=0xbe
+2022-11-07 09:51:38.938119 ## Watchdog ja executou o comando: 0xbe
+2022-11-07 09:51:38.938517 ## leitura digital do power good 1V8
+2022-11-07 09:51:38.938862 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0x91
+2022-11-07 09:51:39.540820 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:39.551038 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:39.555137 ## [/dev/ttyUSB4]<=0xe1
+2022-11-07 09:51:40.056133 ## resultado: 0xe1
+2022-11-07 09:51:40.056481 ## leitura analógica do VDD_EXT
+2022-11-07 09:51:40.056817 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0xA0
+2022-11-07 09:51:40.658814 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:40.669216 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:40.672559 ## [/dev/ttyUSB4]<=0x8e
+2022-11-07 09:51:41.173600 ## resultado: 0x8e
+2022-11-07 09:51:41.174006 ## --------------SUCESSO: Teste 6C - Teste Leituras
+2022-11-07 09:51:41.180272 ## TestStatus.done
+2022-11-07 09:51:41.180602 ## 
+2022-11-07 09:51:41.265877 ## Teste 6D - Teste Desabilita 1V8:
+2022-11-07 09:51:41.418008 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:51:41.418297 ## [/dev/ttyUSB4]<=
+2022-11-07 09:51:41.418647 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:51:41.424921 ## [/dev/ttyUSB4]<=~ # whoami
+2022-11-07 09:51:41.431088 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:51:41.931917 ## Já está logado
+2022-11-07 09:51:41.932080 ## Desabilita alimentacao 1V8
+2022-11-07 09:51:41.932212 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0xd1
+2022-11-07 09:51:41.989621 ## resultado: CompletedProcess(args='sudo adb shell i2cget -y 2 0x31', returncode=0, stdout=b'0xd1\r\n')
+2022-11-07 09:51:41.989809 ## Alimentação 1V8 desabilitada com sucesso
+2022-11-07 09:51:41.989907 ## Reabilitando alimentacao de 1V8
+2022-11-07 09:51:42.045971 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:51:42.052505 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:51:42.057385 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:51:42.658927 ## [/dev/ttyUSB4]=>i2cget -y 2 0x31
+2022-11-07 09:51:42.669748 ## [/dev/ttyUSB4]<=i2cget -y 2 0x31
+2022-11-07 09:51:42.672735 ## [/dev/ttyUSB4]<=0xe1
+2022-11-07 09:51:43.173808 ## resultado: 0xe1
+2022-11-07 09:51:43.174195 ## Alimentação 1V8 habilitada com sucesso
+2022-11-07 09:51:43.174669 ## --------------SUCESSO: Teste 6D - Teste Desabilita 1V8
+2022-11-07 09:51:43.181875 ## TestStatus.done
+2022-11-07 09:51:43.182219 ## 
+2022-11-07 09:51:43.199954 ## Teste Reset NL668:
+2022-11-07 09:51:44.420260 ## Reset por pino de reset validado
+2022-11-07 09:51:44.420497 ## --------------SUCESSO: Teste Reset NL668
+2022-11-07 09:51:44.421235 ## TestStatus.done
+2022-11-07 09:51:44.421343 ## 
+2022-11-07 09:51:44.450679 ## Gravacao Parametros:
+2022-11-07 09:51:44.466599 ## Modem não operando corretamente
+2022-11-07 09:51:45.482861 ## Aguardando modem enumerar USB... [39]
+2022-11-07 09:51:46.521625 ## Aguardando modem enumerar USB... [38]
+2022-11-07 09:51:47.553124 ## Aguardando modem enumerar USB... [37]
+2022-11-07 09:51:48.586732 ## Aguardando modem enumerar USB... [36]
+2022-11-07 09:51:49.620263 ## Aguardando modem enumerar USB... [35]
+2022-11-07 09:51:50.656503 ## Aguardando modem enumerar USB... [34]
+2022-11-07 09:51:51.693150 ## Aguardando modem enumerar USB... [33]
+2022-11-07 09:51:52.724661 ## Aguardando modem enumerar USB... [32]
+2022-11-07 09:51:53.757006 ## Aguardando modem enumerar USB... [31]
+2022-11-07 09:51:54.793491 ## Aguardando modem enumerar USB... [30]
+2022-11-07 09:51:55.825698 ## Aguardando modem enumerar USB... [29]
+2022-11-07 09:51:56.864601 ## Aguardando modem enumerar USB... [28]
+2022-11-07 09:51:56.884520 ## USB Modem operando corretamente!
+2022-11-07 09:51:57.012785 ## ADB operando corretamente!
+2022-11-07 09:51:57.012980 ## Modem operando corretamente!
+2022-11-07 09:51:57.244961 ## 
+2022-11-07 09:51:57.365094 ## Gravado com sucesso: asset.number
+2022-11-07 09:51:57.458395 ## sudo adb shell "echo '0107898922479720210015140' > /data/v2com/sn"
+2022-11-07 09:51:57.623384 ## Numero serial lido: 0107898922479720210015140
+2022-11-07 09:51:57.623762 ## Gravacao de serial number na placa com sucesso
+2022-11-07 09:52:01.115863 ## Sucesso ao dar o comando de shutdown now
+2022-11-07 09:52:06.157420 ## Modem não operando corretamente
+2022-11-07 09:52:07.180046 ## Aguardando modem enumerar USB... [39]
+2022-11-07 09:52:08.218089 ## Aguardando modem enumerar USB... [38]
+2022-11-07 09:52:09.254547 ## Aguardando modem enumerar USB... [37]
+2022-11-07 09:52:10.290832 ## Aguardando modem enumerar USB... [36]
+2022-11-07 09:52:11.323383 ## Aguardando modem enumerar USB... [35]
+2022-11-07 09:52:12.359661 ## Aguardando modem enumerar USB... [34]
+2022-11-07 09:52:13.391185 ## Aguardando modem enumerar USB... [33]
+2022-11-07 09:52:14.427384 ## Aguardando modem enumerar USB... [32]
+2022-11-07 09:52:15.459495 ## Aguardando modem enumerar USB... [31]
+2022-11-07 09:52:16.495701 ## Aguardando modem enumerar USB... [30]
+2022-11-07 09:52:17.532258 ## Aguardando modem enumerar USB... [29]
+2022-11-07 09:52:18.568477 ## Aguardando modem enumerar USB... [28]
+2022-11-07 09:52:19.601140 ## Aguardando modem enumerar USB... [27]
+2022-11-07 09:52:20.637737 ## Aguardando modem enumerar USB... [26]
+2022-11-07 09:52:20.676144 ## USB Modem operando corretamente!
+2022-11-07 09:52:21.741516 ## Aguardando ADB responder... [9]
+2022-11-07 09:52:21.918443 ## ADB operando corretamente!
+2022-11-07 09:52:21.918922 ## Modem operando corretamente!
+2022-11-07 09:52:21.993311 ## --------------SUCESSO: Gravacao Parametros
+2022-11-07 09:52:21.994704 ## TestStatus.done
+2022-11-07 09:52:21.994928 ## 
+2022-11-07 09:52:22.011718 ## Aprovisionamento 3 - Gravacao Watchdog:
+2022-11-07 09:52:22.167165 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:52:23.168815 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:24.170324 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:24.553673 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:24.570265 ## [/dev/ttyUSB4]<=_  _  ____   ___  __   _  _
+2022-11-07 09:52:25.071089 ## Tentando logar...
+2022-11-07 09:52:25.071301 ## [/dev/ttyUSB4]=>
+2022-11-07 09:52:25.098157 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:25.099499 ## [/dev/ttyUSB4]<=  _  _  ____   ___  __   _  _
+2022-11-07 09:52:25.100821 ## [/dev/ttyUSB4]<= / )( \(___ \ / __)/  \ ( \/ )
+2022-11-07 09:52:25.102190 ## [/dev/ttyUSB4]<= \ \/ / / __/( (__(  O )/ \/ \
+2022-11-07 09:52:25.103603 ## [/dev/ttyUSB4]<=  \__/ (____) \___)\__/ \_)(_/
+2022-11-07 09:52:25.103904 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:25.104837 ## [/dev/ttyUSB4]<=ng2-0015140 login:
+2022-11-07 09:52:25.104970 ## [/dev/ttyUSB4]=>root
+2022-11-07 09:52:25.109547 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:52:26.143116 ## [/dev/ttyUSB4]<=Password:
+2022-11-07 09:52:26.143804 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:52:26.149062 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:26.198675 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:26.202298 ## [/dev/ttyUSB4]<============ GT41 ED04 ===========
+2022-11-07 09:52:26.206555 ## [/dev/ttyUSB4]<=  _  _  [1;34m____[0m   ___  __   _  _
+2022-11-07 09:52:26.211000 ## [/dev/ttyUSB4]<= / )( \[1;34m(___ \[0m / __)/  \ ( \/ )
+2022-11-07 09:52:26.215324 ## [/dev/ttyUSB4]<= \ \/ / [1;34m/ __/[0m( (__(  O )/ \/ \
+2022-11-07 09:52:26.219633 ## [/dev/ttyUSB4]<=  \__/ [1;34m(____)[0m \___)\__/ \_)(_/
+2022-11-07 09:52:26.220242 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:27.222162 ## [/dev/ttyUSB4]<=~ #
+2022-11-07 09:52:28.223647 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:28.223811 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:52:28.228958 ## [/dev/ttyUSB4]<=whoami
+2022-11-07 09:52:28.233320 ## [/dev/ttyUSB4]<=root
+2022-11-07 09:52:31.677312 ## Desabilita alimentação do modem
+2022-11-07 09:52:31.677554 ## [/dev/ttyUSB4]=>i2cset -y 2 0x31 0xdc
+2022-11-07 09:52:31.677963 ## Modem reiniciando, aguarde 30s
+2022-11-07 09:52:31.779693 ## [/dev/ttyUSB4]=>whoami
+2022-11-07 09:52:31.780962 ## [/dev/ttyUSB4]<=i2cset -y 2 0x31 0xdc
+2022-11-07 09:52:32.782448 ## [/dev/ttyUSB4]<=
+2022-11-07 09:52:33.283473 ## Modem desligou corretamente
+2022-11-07 09:52:33.283797 ## Disable modem OK
+2022-11-07 09:52:41.697950 ## Inserindo Firmware Final do Watchdog
+2022-11-07 09:52:44.781220 ## CompletedProcess(args='sudo "/home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/stlink/build/Release/bin/st-flash" --reset --connect-under-reset --format binary --freq=4000k write "/home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/Aprovisionamento/FW_TESTES_WD/GT41_STM32L010F4_WD_1.0_202210271200.bin" 0x08000000', returncode=0, stdout=b'st-flash 1.7.0-214-gc2db68e-dirty\nfile /home/pi/Documents/HW_JONE_SCRIPTS/SCRIPTS_GT41_Ed04r6/Aprovisionamento/FW_TESTES_WD/GT41_STM32L010F4_WD_1.0_202210271200.bin md5 checksum: c842c85cbbb4b7e8641f5f516a734ac, stlink checksum: 0x0016b0cc\n-> Flash page at 0x8000000 erased (size: 0x80)\n-> Flash page at 0x8000080 erased (size: 0x80)\n-> Flash page at 0x8000100 erased (size: 0x80)\n-> Flash page at 0x8000180 erased (size: 0x80)\n-> Flash page at 0x8000200 erased (size: 0x80)\n-> Flash page at 0x8000280 erased (size: 0x80)\n-> Flash page at 0x8000300 erased (size: 0x80)\n-> Flash page at 0x8000380 erased (size: 0x80)\n-> Flash page at 0x8000400 erased (size: 0x80)\n-> Flash page at 0x8000480 erased (size: 0x80)\n-> Flash page at 0x8000500 erased (size: 0x80)\n-> Flash page at 0x8000580 erased (size: 0x80)\n-> Flash page at 0x8000600 erased (size: 0x80)\n-> Flash page at 0x8000680 erased (size: 0x80)\n-> Flash page at 0x8000700 erased (size: 0x80)\n-> Flash page at 0x8000780 erased (size: 0x80)\n-> Flash page at 0x8000800 erased (size: 0x80)\n-> Flash page at 0x8000880 erased (size: 0x80)\n-> Flash page at 0x8000900 erased (size: 0x80)\n-> Flash page at 0x8000980 erased (size: 0x80)\n-> Flash page at 0x8000a00 erased (size: 0x80)\n-> Flash page at 0x8000a80 erased (size: 0x80)\n-> Flash page at 0x8000b00 erased (size: 0x80)\n-> Flash page at 0x8000b80 erased (size: 0x80)\n-> Flash page at 0x8000c00 erased (size: 0x80)\n-> Flash page at 0x8000c80 erased (size: 0x80)\n-> Flash page at 0x8000d00 erased (size: 0x80)\n-> Flash page at 0x8000d80 erased (size: 0x80)\n-> Flash page at 0x8000e00 erased (size: 0x80)\n-> Flash page at 0x8000e80 erased (size: 0x80)\n-> Flash page at 0x8000f00 erased (size: 0x80)\n-> Flash page at 0x8000f80 erased (size: 0x80)\n-> Flash page at 0x8001000 erased (size: 0x80)\n-> Flash page at 0x8001080 erased (size: 0x80)\n-> Flash page at 0x8001100 erased (size: 0x80)\n-> Flash page at 0x8001180 erased (size: 0x80)\n-> Flash page at 0x8001200 erased (size: 0x80)\n-> Flash page at 0x8001280 erased (size: 0x80)\n-> Flash page at 0x8001300 erased (size: 0x80)\n-> Flash page at 0x8001380 erased (size: 0x80)\n-> Flash page at 0x8001400 erased (size: 0x80)\n-> Flash page at 0x8001480 erased (size: 0x80)\n-> Flash page at 0x8001500 erased (size: 0x80)\n-> Flash page at 0x8001580 erased (size: 0x80)\n-> Flash page at 0x8001600 erased (size: 0x80)\n-> Flash page at 0x8001680 erased (size: 0x80)\n-> Flash page at 0x8001700 erased (size: 0x80)\n-> Flash page at 0x8001780 erased (size: 0x80)\n-> Flash page at 0x8001800 erased (size: 0x80)\n-> Flash page at 0x8001880 erased (size: 0x80)\n-> Flash page at 0x8001900 erased (size: 0x80)\n-> Flash page at 0x8001980 erased (size: 0x80)\n-> Flash page at 0x8001a00 erased (size: 0x80)\n-> Flash page at 0x8001a80 erased (size: 0x80)\n-> Flash page at 0x8001b00 erased (size: 0x80)\n-> Flash page at 0x8001b80 erased (size: 0x80)\n-> Flash page at 0x8001c00 erased (size: 0x80)\n-> Flash page at 0x8001c80 erased (size: 0x80)\n-> Flash page at 0x8001d00 erased (size: 0x80)\n-> Flash page at 0x8001d80 erased (size: 0x80)\n-> Flash page at 0x8001e00 erased (size: 0x80)\n-> Flash page at 0x8001e80 erased (size: 0x80)\n-> Flash page at 0x8001f00 erased (size: 0x80)\n-> Flash page at 0x8001f80 erased (size: 0x80)\n-> Flash page at 0x8002000 erased (size: 0x80)\n-> Flash page at 0x8002080 erased (size: 0x80)\n-> Flash page at 0x8002100 erased (size: 0x80)\n-> Flash page at 0x8002180 erased (size: 0x80)\n-> Flash page at 0x8002200 erased (size: 0x80)\n-> Flash page at 0x8002280 erased (size: 0x80)\n-> Flash page at 0x8002300 erased (size: 0x80)\n-> Flash page at 0x8002380 erased (size: 0x80)\n-> Flash page at 0x8002400 erased (size: 0x80)\n-> Flash page at 0x8002480 erased (size: 0x80)\n-> Flash page at 0x8002500 erased (size: 0x80)\n-> Flash page at 0x8002580 erased (size: 0x80)\n-> Flash page at 0x8002600 erased (size: 0x80)\n-> Flash page at 0x8002680 erased (size: 0x80)\n-> Flash page at 0x8002700 erased (size: 0x80)\n-> Flash page at 0x8002780 erased (size: 0x80)\n-> Flash page at 0x8002800 erased (size: 0x80)\n-> Flash page at 0x8002880 erased (size: 0x80)\n-> Flash page at 0x8002900 erased (size: 0x80)\n-> Flash page at 0x8002980 erased (size: 0x80)\n-> Flash page at 0x8002a00 erased (size: 0x80)\n-> Flash page at 0x8002a80 erased (size: 0x80)\n-> Flash page at 0x8002b00 erased (size: 0x80)\n-> Flash page at 0x8002b80 erased (size: 0x80)\n-> Flash page at 0x8002c00 erased (size: 0x80)\n-> Flash page at 0x8002c80 erased (size: 0x80)\n-> Flash page at 0x8002d00 erased (size: 0x80)\n-> Flash page at 0x8002d80 erased (size: 0x80)\n-> Flash page at 0x8002e00 erased (size: 0x80)\n-> Flash page at 0x8002e80 erased (size: 0x80)\n-> Flash page at 0x8002f00 erased (size: 0x80)\n-> Flash page at 0x8002f80 erased (size: 0x80)\n-> Flash page at 0x8003000 erased (size: 0x80)\n-> Flash page at 0x8003080 erased (size: 0x80)\n-> Flash page at 0x8003100 erased (size: 0x80)\n-> Flash page at 0x8003180 erased (size: 0x80)\n-> Flash page at 0x8003200 erased (size: 0x80)\n-> Flash page at 0x8003280 erased (size: 0x80)\n-> Flash page at 0x8003300 erased (size: 0x80)\n-> Flash page at 0x8003380 erased (size: 0x80)\n-> Flash page at 0x8003400 erased (size: 0x80)\n-> Flash page at 0x8003480 erased (size: 0x80)\n-> Flash page at 0x8003500 erased (size: 0x80)\n-> Flash page at 0x8003580 erased (size: 0x80)\n-> Flash page at 0x8003600 erased (size: 0x80)\n-> Flash page at 0x8003680 erased (size: 0x80)\n-> Flash page at 0x8003700 erased (size: 0x80)\n-> Flash page at 0x8003780 erased (size: 0x80)\n-> Flash page at 0x8003800 erased (size: 0x80)\n-> Flash page at 0x8003880 erased (size: 0x80)\n-> Flash page at 0x8003900 erased (size: 0x80)\n-> Flash page at 0x8003980 erased (size: 0x80)\n-> Flash page at 0x8003a00 erased (size: 0x80)\n-> Flash page at 0x8003a80 erased (size: 0x80)\n-> Flash page at 0x8003b00 erased (size: 0x80)\n-> Flash page at 0x8003b80 erased (size: 0x80)\n-> Flash page at 0x8003c00 erased (size: 0x80)\n-> Flash page at 0x8003c80 erased (size: 0x80)\n-> Flash page at 0x8003d00 erased (size: 0x80)\n-> Flash page at 0x8003d80 erased (size: 0x80)\n-> Flash page at 0x8003e00 erased (size: 0x80)\n\n\r  1/249 halfpages written\r  2/249 halfpages written\r  3/249 halfpages written\r  4/249 halfpages written\r  5/249 halfpages written\r  6/249 halfpages written\r  7/249 halfpages written\r  8/249 halfpages written\r  9/249 halfpages written\r 10/249 halfpages written\r 11/249 halfpages written\r 12/249 halfpages written\r 13/249 halfpages written\r 14/249 halfpages written\r 15/249 halfpages written\r 16/249 halfpages written\r 17/249 halfpages written\r 18/249 halfpages written\r 19/249 halfpages written\r 20/249 halfpages written\r 21/249 halfpages written\r 22/249 halfpages written\r 23/249 halfpages written\r 24/249 halfpages written\r 25/249 halfpages written\r 26/249 halfpages written\r 27/249 halfpages written\r 28/249 halfpages written\r 29/249 halfpages written\r 30/249 halfpages written\r 31/249 halfpages written\r 32/249 halfpages written\r 33/249 halfpages written\r 34/249 halfpages written\r 35/249 halfpages written\r 36/249 halfpages written\r 37/249 halfpages written\r 38/249 halfpages written\r 39/249 halfpages written\r 40/249 halfpages written\r 41/249 halfpages written\r 42/249 halfpages written\r 43/249 halfpages written\r 44/249 halfpages written\r 45/249 halfpages written\r 46/249 halfpages written\r 47/249 halfpages written\r 48/249 halfpages written\r 49/249 halfpages written\r 50/249 halfpages written\r 51/249 halfpages written\r 52/249 halfpages written\r 53/249 halfpages written\r 54/249 halfpages written\r 55/249 halfpages written\r 56/249 halfpages written\r 57/249 halfpages written\r 58/249 halfpages written\r 59/249 halfpages written\r 60/249 halfpages written\r 61/249 halfpages written\r 62/249 halfpages written\r 63/249 halfpages written\r 64/249 halfpages written\r 65/249 halfpages written\r 66/249 halfpages written\r 67/249 halfpages written\r 68/249 halfpages written\r 69/249 halfpages written\r 70/249 halfpages written\r 71/249 halfpages written\r 72/249 halfpages written\r 73/249 halfpages written\r 74/249 halfpages written\r 75/249 halfpages written\r 76/249 halfpages written\r 77/249 halfpages written\r 78/249 halfpages written\r 79/249 halfpages written\r 80/249 halfpages written\r 81/249 halfpages written\r 82/249 halfpages written\r 83/249 halfpages written\r 84/249 halfpages written\r 85/249 halfpages written\r 86/249 halfpages written\r 87/249 halfpages written\r 88/249 halfpages written\r 89/249 halfpages written\r 90/249 halfpages written\r 91/249 halfpages written\r 92/249 halfpages written\r 93/249 halfpages written\r 94/249 halfpages written\r 95/249 halfpages written\r 96/249 halfpages written\r 97/249 halfpages written\r 98/249 halfpages written\r 99/249 halfpages written\r100/249 halfpages written\r101/249 halfpages written\r102/249 halfpages written\r103/249 halfpages written\r104/249 halfpages written\r105/249 halfpages written\r106/249 halfpages written\r107/249 halfpages written\r108/249 halfpages written\r109/249 halfpages written\r110/249 halfpages written\r111/249 halfpages written\r112/249 halfpages written\r113/249 halfpages written\r114/249 halfpages written\r115/249 halfpages written\r116/249 halfpages written\r117/249 halfpages written\r118/249 halfpages written\r119/249 halfpages written\r120/249 halfpages written\r121/249 halfpages written\r122/249 halfpages written\r123/249 halfpages written\r124/249 halfpages written\r125/249 halfpages written\r126/249 halfpages written\r127/249 halfpages written\r128/249 halfpages written\r129/249 halfpages written\r130/249 halfpages written\r131/249 halfpages written\r132/249 halfpages written\r133/249 halfpages written\r134/249 halfpages written\r135/249 halfpages written\r136/249 halfpages written\r137/249 halfpages written\r138/249 halfpages written\r139/249 halfpages written\r140/249 halfpages written\r141/249 halfpages written\r142/249 halfpages written\r143/249 halfpages written\r144/249 halfpages written\r145/249 halfpages written\r146/249 halfpages written\r147/249 halfpages written\r148/249 halfpages written\r149/249 halfpages written\r150/249 halfpages written\r151/249 halfpages written\r152/249 halfpages written\r153/249 halfpages written\r154/249 halfpages written\r155/249 halfpages written\r156/249 halfpages written\r157/249 halfpages written\r158/249 halfpages written\r159/249 halfpages written\r160/249 halfpages written\r161/249 halfpages written\r162/249 halfpages written\r163/249 halfpages written\r164/249 halfpages written\r165/249 halfpages written\r166/249 halfpages written\r167/249 halfpages written\r168/249 halfpages written\r169/249 halfpages written\r170/249 halfpages written\r171/249 halfpages written\r172/249 halfpages written\r173/249 halfpages written\r174/249 halfpages written\r175/249 halfpages written\r176/249 halfpages written\r177/249 halfpages written\r178/249 halfpages written\r179/249 halfpages written\r180/249 halfpages written\r181/249 halfpages written\r182/249 halfpages written\r183/249 halfpages written\r184/249 halfpages written\r185/249 halfpages written\r186/249 halfpages written\r187/249 halfpages written\r188/249 halfpages written\r189/249 halfpages written\r190/249 halfpages written\r191/249 halfpages written\r192/249 halfpages written\r193/249 halfpages written\r194/249 halfpages written\r195/249 halfpages written\r196/249 halfpages written\r197/249 halfpages written\r198/249 halfpages written\r199/249 halfpages written\r200/249 halfpages written\r201/249 halfpages written\r202/249 halfpages written\r203/249 halfpages written\r204/249 halfpages written\r205/249 halfpages written\r206/249 halfpages written\r207/249 halfpages written\r208/249 halfpages written\r209/249 halfpages written\r210/249 halfpages written\r211/249 halfpages written\r212/249 halfpages written\r213/249 halfpages written\r214/249 halfpages written\r215/249 halfpages written\r216/249 halfpages written\r217/249 halfpages written\r218/249 halfpages written\r219/249 halfpages written\r220/249 halfpages written\r221/249 halfpages written\r222/249 halfpages written\r223/249 halfpages written\r224/249 halfpages written\r225/249 halfpages written\r226/249 halfpages written\r227/249 halfpages written\r228/249 halfpages written\r229/249 halfpages written\r230/249 halfpages written\r231/249 halfpages written\r232/249 halfpages written\r233/249 halfpages written\r234/249 halfpages written\r235/249 halfpages written\r236/249 halfpages written\r237/249 halfpages written\r238/249 halfpages written\r239/249 halfpages written\r240/249 halfpages written\r241/249 halfpages written\r242/249 halfpages written\r243/249 halfpages written\r244/249 halfpages written\r245/249 halfpages written\r246/249 halfpages written\r247/249 halfpages written\r248/249 halfpages written\r249/249 halfpages written\n', stderr=b'Failed to parse flash type or unrecognized flash type\n2022-11-07T09:52:41 INFO common.c: STM32L0xxx_Cat_1: 8 KiB SRAM, 16 KiB flash in at least 128 byte pages.\n2022-11-07T09:52:41 INFO common_flash.c: Attempting to write 15956 (0x3e54) bytes to stm32 address: 134217728 (0x8000000)\n2022-11-07T09:52:42 INFO flashloader.c: Starting Flash write for L0\n2022-11-07T09:52:42 INFO flash_loader.c: Successfully loaded flash loader in sram\n2022-11-07T09:52:42 INFO flash_loader.c: Clear DFSR\n2022-11-07T09:52:42 ERROR flash_loader.c: write_buffer_to_sram() == -1\n2022-11-07T09:52:42 WARN flashloader.c: Failed to use flash loader, fallback to soft write\n2022-11-07T09:52:43 INFO common_flash.c: Starting verification of write complete\n2022-11-07T09:52:43 INFO common_flash.c: Flash written and verified! jolly good!\n')
+2022-11-07 09:52:44.782332 ## Firmware de testes do watchdog gravado.
+2022-11-07 09:52:44.782631 ## Reiniciando a DUT.
+2022-11-07 09:52:48.820346 ## Modem não operando corretamente
+2022-11-07 09:52:49.847943 ## Aguardando modem enumerar USB... [39]
+2022-11-07 09:52:50.884351 ## Aguardando modem enumerar USB... [38]
+2022-11-07 09:52:51.922667 ## Aguardando modem enumerar USB... [37]
+2022-11-07 09:52:52.955047 ## Aguardando modem enumerar USB... [36]
+2022-11-07 09:52:53.982760 ## Aguardando modem enumerar USB... [35]
+2022-11-07 09:52:55.019831 ## Aguardando modem enumerar USB... [34]
+2022-11-07 09:52:56.047562 ## Aguardando modem enumerar USB... [33]
+2022-11-07 09:52:57.083268 ## Aguardando modem enumerar USB... [32]
+2022-11-07 09:52:58.114565 ## Aguardando modem enumerar USB... [31]
+2022-11-07 09:52:59.150864 ## Aguardando modem enumerar USB... [30]
+2022-11-07 09:53:00.188112 ## Aguardando modem enumerar USB... [29]
+2022-11-07 09:53:01.224207 ## Aguardando modem enumerar USB... [28]
+2022-11-07 09:53:02.260903 ## Aguardando modem enumerar USB... [27]
+2022-11-07 09:53:03.297698 ## Aguardando modem enumerar USB... [26]
+2022-11-07 09:53:04.334790 ## Aguardando modem enumerar USB... [25]
+2022-11-07 09:53:05.369609 ## Aguardando modem enumerar USB... [24]
+2022-11-07 09:53:06.407041 ## Aguardando modem enumerar USB... [23]
+2022-11-07 09:53:07.444002 ## Aguardando modem enumerar USB... [22]
+2022-11-07 09:53:07.465858 ## USB Modem operando corretamente!
+2022-11-07 09:53:08.506779 ## Aguardando ADB responder... [9]
+2022-11-07 09:53:08.686228 ## ADB operando corretamente!
+2022-11-07 09:53:08.686522 ## Modem operando corretamente!
+2022-11-07 09:53:08.754449 ## --------------SUCESSO: Aprovisionamento 3 - Gravacao Watchdog
+2022-11-07 09:53:08.761552 ## TestStatus.done
+2022-11-07 09:53:08.761876 ## 
+2022-11-07 09:53:08.779325 ## Aprovisionamento 4 - Desligamento:
+2022-11-07 09:53:08.826649 ## USB Modem operando corretamente!
+2022-11-07 09:53:08.892376 ## ADB operando corretamente!
+2022-11-07 09:53:08.892647 ## Modem operando corretamente!
+2022-11-07 09:53:16.371938 ## ADC encontrado
+2022-11-07 09:53:17.660244 ## 0.0
+2022-11-07 09:53:17.660444 ## --------------SUCESSO: Aprovisionamento 4 - Desligamento
+2022-11-07 09:53:17.661111 ## TestStatus.done
+2022-11-07 09:53:17.661218 ## 
+2022-11-07 09:53:17.661912 ## PLACA APROVADA: True
+2022-11-07 09:53:19.246713 ## Finalizando placa
+2022-11-07 09:53:19.247005 ## Realizando git commit
+2022-11-07 09:53:19.247376 ## Não será upado backup, pois não foi criado
